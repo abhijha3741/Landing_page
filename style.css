@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.main-section-container{
+    width: 100%;
+}
+.hero-section{
+    background-color: #1f2937;
+    height: 70vh;
+}
+.header-main-container, .footer-main-container{
+    width: 100%;
+    background-color: #1f2937;
+}
+.header-container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    height: 80px;
+    align-items: center;
+}
+.footer-container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    height: 60px;
+    align-items: center;
+}
+h1.copy-text {
+    font-size: 16px;
+    font-weight: normal;
+}
+.header-nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.hero-main-container {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+.hero-content-section{
+    width: 50%;
+}
+.header-text{
+    font-size: 28px;
+    color: #f9faf8;
+    cursor: pointer;
+}
+li.individual-links {
+    font-size: 18px;
+    color: #e5e7eb;
+    cursor: pointer;
+}
+h1.hero-main-heading {
+    font-size: 48px;
+    color: #f9faf8;
+    margin-bottom: 15px;
+    width: 80%;
+    line-height: 50px;
+    font-weight: 900;
+}
+p.hero-para {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+button.hero-button {
+    background: #3882f6;
+    border: 0;
+    padding: 8px 30px;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.hero-section-two.hero-content-section {
+    height: 55%;
+    margin-left: 50px;
+    box-sizing: border-box;
+}
+.image-placeholder {
+    height: 100%;
+    background: #6d747d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1.placeholder-title {
+    font-size: 20px;
+    color: #fff;
+}
+footer.footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+.info-main-container {
+    width: 55%;
+    margin: 0 auto;
+}
+h2.info-text {
+    font-size: 36px;
+    text-align: center;
+    color: #1f2937;
+    margin-bottom: 35px;
+}
+.info-boxes-container {
+    display: flex;
+}
+.individual-boxes {
+    width: 25%;
+    margin-right: 30px;
+}
+.individual-box {
+    width: 70%;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+    margin-bottom: 8px;
+}
+section.main-section-container.info-section {
+    min-height: 360px;
+    margin: 50px 0;
+}
+p.some-info {
+    font-size: 18px;
+    color: grey;
+    width: 70%;
+    text-align: center;
+}
+section.main-section-container.qoute-section {
+    height: 350px;
+    background: #e5e7eb;
+}
+.quote-main-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 55%;
+    margin: 0 auto;
+}
+.signature {
+    display: block;
+    width: 100%;
+    text-align: end;
+    color: #1f2937;
+    font-size: 28px;
+    font-weight: bold;
+}
+p.quote-odin {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+section.main-section-container.call-section {
+    height: 270px;
+}
+.call-to-main-conatiner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.call-content-holder {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: #3882f6;
+    padding: 40px 10%;
+    color: #fff;
+    border-radius: 5px;
+}
+.button-holder.call-content {
+    width: 35%;
+    text-align: center;
+    height: 100%;
+}
+.text-holder.call-content {
+    width: 65%;
+}
+h3.call-heading {
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+p.call-para {
+    font-size: 18px;
+}
+button.call-signup-btn {
+    font-size: 18px;
+    color: #fff;
+    background: #3882f6;
+    border: 2px solid;
+    padding: 8px 30px;
+    border-radius: 7px;
+    font-weight: bold;
+}
